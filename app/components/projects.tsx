@@ -141,8 +141,8 @@ export default function FeaturedProject() {
                     </tbody>
                   </table>
                 </div>
-                <div className="mt-8 flex justify-end">
-                  <button onClick={() => setIsModalOpen(true)} className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white hover:text-[#D4F757] transition-colors">
+                <div className="mt-8 flex justify-end ">
+                  <button onClick={() => setIsModalOpen(true)} className="inline-flex cursor-pointer items-center gap-2 text-xs font-bold uppercase tracking-widest text-white hover:text-[#D4F757] transition-colors">
                     Enquire for {project.name} <ArrowUpRight className="w-4 h-4" />
                   </button>
                 </div>

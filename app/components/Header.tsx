@@ -27,7 +27,7 @@ export default function Header() {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
           <a href="#projects" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">Properties</a>
-          <a href="#infrastructure" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">Highlights</a>
+          <a href="#highlights" className="text-sm font-medium text-white hover:text-gray-300 transition-colors">Highlights</a>
           <button onClick={() => setIsModalOpen(true)} className="px-6 py-2 bg-[#D4F757] cursor-pointer text-black text-sm font-bold rounded-full hover:bg-white transition-colors">Enquire</button>
         </nav>
 
@@ -41,7 +41,7 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-lg border-t border-white/10 p-6 flex flex-col gap-4">
           <a href="#projects" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-white hover:text-gray-700">Properties</a>
-          <a href="#infrastructure" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-white hover:text-gray-700">Highlights</a>
+          <a href="#highlights" onClick={() => setIsMobileMenuOpen(false)} className="text-lg font-medium text-white hover:text-gray-700">Highlights</a>
           <button onClick={() => { setIsMobileMenuOpen(false); setIsModalOpen(true); }} className="inline-block cursor-pointer mt-4 text-center w-full px-6 py-3 bg-[#D4F757] text-black text-sm font-bold rounded-full">Enquire Now</button>
         </div>
       )}

@@ -20,7 +20,7 @@ export default function HeroContact() {
   const [isEnquireOpen, setIsEnquireOpen] = useState(false);
 
   return (
-    <section className="relative w-full min-h-[80vh] flex flex-col justify-end py-16 md:py-24 bg-black overflow-hidden">
+    <section id="contact" className="relative w-full min-h-[80vh] flex flex-col justify-end py-16 md:py-24 bg-black overflow-hidden">
       
       {/* Background Image Layer */}
       <div className="absolute inset-0 z-0">
@@ -54,7 +54,7 @@ export default function HeroContact() {
               Limited Availability
             </p>
             <p className="text-[16px] md:text-[18px] text-gray-300 font-medium max-w-3xl leading-relaxed">
-              Secure your spot in Pune's fastest-growing IT corridors. Call us now at <span className="font-bold text-white">+91 8956067433</span> or click enquire to get a personalized quote.
+              Secure your spot in Pune's fastest-growing IT corridors. Call us now at <a href="tel:+918956067433" className="font-bold text-white hover:text-[#D4F757] transition-colors">+91 8956067433</a> or click enquire to get a personalized quote.
             </p>
           </div>
 

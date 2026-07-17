@@ -16,7 +16,7 @@ const highlights = [
 
 export default function ProjectHighlights() {
   return (
-    <section className="py-20 bg-black text-white">
+    <section id="highlights" className="py-20 bg-black text-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-16">
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-[#D4F757] block mb-4">

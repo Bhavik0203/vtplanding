@@ -96,7 +96,7 @@ export default function ReimaginedAbout() {
               </div>
               <div>
                 <p className="text-[11px] uppercase tracking-widest text-zinc-400 font-medium">Site Desk Line</p>
-                <p className="text-sm font-bold text-white font-mono">+91 8956067433</p>
+                <a href="tel:+918956067433" className="text-sm font-bold text-white font-mono hover:text-[#D4F757] transition-colors block">+91 8956067433</a>
               </div>
             </motion.div>
           </div>

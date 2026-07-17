@@ -13,7 +13,7 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-widest text-[#D4F757] mb-4">Quick Links</h4>
             <ul className="flex flex-col gap-2">
               <li><a href="#projects" className="text-sm text-gray-400 hover:text-white transition-colors">Properties</a></li>
-              <li><a href="#infrastructure" className="text-sm text-gray-400 hover:text-white transition-colors">Highlights</a></li>
+              <li><a href="#highlights" className="text-sm text-gray-400 hover:text-white transition-colors">Highlights</a></li>
               <li><a href="#contact" className="text-sm text-gray-400 hover:text-white transition-colors">Contact Sales</a></li>
             </ul>
           </div>
@@ -21,7 +21,7 @@ export default function Footer() {
             <h4 className="text-sm font-bold uppercase tracking-widest text-[#D4F757] mb-4">Contact</h4>
             <ul className="flex flex-col gap-2">
               <li className="text-sm text-gray-400">Pune, Maharashtra</li>
-              <li className="text-sm text-gray-400">+91 8956067433</li>
+              <li className="text-sm text-gray-400"><a href="tel:+918956067433" className="hover:text-white transition-colors block">+91 8956067433</a></li>
             </ul>
           </div>
         </div>
