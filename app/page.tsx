@@ -13,6 +13,7 @@ import AboutVTP from "./components/AboutVTP";
 import FAQ from "./components/FAQ";
 import HeroContact from "./components/contact";
 import Footer from "./components/Footer";
+import MoreProjects from "./components/MoreProjects";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       {/* <Testimonials /> */}
       {/* <AboutVTP />
       <FAQ /> */}
+      <MoreProjects />
       <HeroContact />
       <Footer />
     </main>
