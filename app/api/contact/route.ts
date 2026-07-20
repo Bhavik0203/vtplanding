@@ -13,8 +13,8 @@ export async function POST(request: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'foresightrealvisionpvt.digital@gmail.com',
-        pass: 'yrdtenvzojjpwydz',
+        user: 'foresightrealvisiondigital@gmail.com',
+        pass: 'pmthwohobtlehszz',
       },
     });
 
